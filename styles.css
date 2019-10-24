@@ -6,10 +6,10 @@ body{
 }
 header{
     background-color: darkorchid;
-    background-image: url("../images/art.jpg");
+    background-image: url("art.jpg");
 }
 .image{
-    background-image: url("../images/clouds.jpg");
+    background-image: url("clouds.jpg");
     background-color: red;
     display:inline-block;
     top:10px;
