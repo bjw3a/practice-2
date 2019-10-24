@@ -1,0 +1,179 @@
+body{
+    background-color: coral;
+    font-family: cursive;
+    padding:0;
+    padding:0;
+}
+header{
+    background-color: darkorchid;
+    background-image: url("../images/art.jpg");
+}
+.image{
+    background-image: url("../images/clouds.jpg");
+    background-color: red;
+    display:inline-block;
+    top:10px;
+    width:150px;
+    background-repeat: no-repeat;
+    text-indent: -999999px;
+    position: relative;
+    
+
+}
+
+button{
+    border-radius: 50%;
+    font-size: 15px;
+    font-family: cursive;
+    background-color: red;
+    color: black;
+    text-transform: uppercase;
+}
+header a {
+    text-decoration: none;
+    color: mintcream;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: 20px;
+}
+#image_1 {
+    padding:40px;
+    border-radius: 50%;
+    position: relative;
+    left:500px;
+    display:inline-block;
+}
+
+#image{
+    display: flex;
+    flex-direction: row;
+}
+.image_1{
+    
+    width:300px;
+    border-radius: 50%;
+    border: 10px solid black;
+    position: relative;
+    margin:auto;
+    
+}
+li{
+    display:inline-block;
+    padding:40px;
+}
+li:hover{
+    text-decoration: underline;
+}
+section{
+    background-color: coral;
+    display:flex;
+    flex-direction: row;
+    
+}
+div{
+    margin:auto;
+}
+#nature{
+    border-radius: 50%;
+}
+#picture{
+    border-radius: 50%;
+}
+#youtube a{
+    text-decoration: none;
+    color: red;
+
+}
+#youtube a:hover{
+    text-decoration:underline;
+}
+#list{
+    display: inline-block;
+    
+} 
+#list h1{
+    padding:20px;
+    font-family: fantasy;
+}
+#list ul li:hover{
+    text-decoration: none;
+}
+#list_2{
+    display:inline-block;
+}
+#list_2 h1{ 
+    font-family: fantasy;
+    
+}
+#list_2 ul li a{
+    text-decoration: none;
+    color:black;
+}
+#cat{
+    display:flex;
+    flex-direction: column;
+
+}
+#cat li{
+    font-family: fantasy;
+    font-size: 50px;
+    padding:10px;
+position: relative;
+left:1000px;
+top:-300px;
+
+}
+
+
+footer{
+    background-color: darkblue;
+    text-align: center;
+    font-family: cursive;
+color: white;
+}
+#space{
+    font-size: 50px;
+    font-family: fantasy;
+    color: blue;
+    padding:20px;
+    margin:20px;
+    position: relative;
+    top:-300px;
+}
+p{
+    font-family: cursive;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+#ipsum_dolor{
+    display:flex; 
+    flex-direction: column;
+}
+#ipsum_dolor div {
+    margin:auto;
+}
+#kitty_cat{
+    height:400px;
+    background-color: greenyellow;
+    
+}
+#kitty_cat figure{ display:flex;
+    flex-direction: row;
+
+}
+#kitty_cat figure img{
+    margin:auto;
+    border-radius: 50%;
+    border: 10px solid black;
+    width:300px;
+}
+#new_button{
+    position: relative;
+    left:500px;
+    border-radius: 50px;
+    height:100px;
+    width:100px;
+    background-color: black;
+    color:white;
+}
